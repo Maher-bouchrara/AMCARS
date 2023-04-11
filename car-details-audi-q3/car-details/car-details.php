@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Voiture</title>
-    <link rel="stylesheet" href="car-details.css">
+    
     <link rel="stylesheet" href="assets/css/fontawesome.css">
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="car-details.js"></script>
@@ -37,13 +37,19 @@
             <button class="next arrow-right"><div></div></button>
         </div>
     </div>
-    <form name="myf" action="" method="" onsubmit="">
+    <form name="myf" id="myf" action="location.php" method="POST" onsubmit="return verifdate()">
     <div class="caracteristique">
         <ul>
             <li class="element-list">
                 <div class="">
-                     <span class="">Type</span>
-                     <strong class="">Used vehicle</strong>
+                     <span class="">Disponibilty</span>
+                     <strong class="">yes/no
+                        <!--VERIFICATION A PARTIR DE LA BASE DE DONNEES-->
+                        <?php
+
+                        ?>
+                        <!------------------------------------------------------------------------->
+                     </strong>
                 </div>
            </li>
         </ul>
@@ -51,15 +57,15 @@
             <li class="element-list">
                 <div class="">
                      <span class="">Model</span>
-                     <strong class="">Used vehicle</strong>
+                     <strong class="" name="modele" value="Q3" >Q3</strong>
                 </div>
            </li>
         </ul>
         <ul>
             <li class="element-list">
                 <div class="">
-                     <span class="">Mileage</span>
-                     <strong class="">5000 km</strong>
+                     <span class="">Seats</span>
+                     <strong class="">5</strong>
                 </div>
            </li>
         </ul>
@@ -74,22 +80,43 @@
         <ul>
             <li class="element-list">
               <div class="">
-                <span class="" id="prix">Price</span>
-                <strong class="" id="prix-total">150 DT</strong>
+                <span class="" id="prix">Price per day</span>
+                <strong class="" id="prixjour" value="150">150 DT</strong>
               </div>
             </li>
           </ul>
-          <ul>
+          <!--<ul>
             <li class="element-list">
               <div class="">
                 <span class="">Total of days</span>
                 <strong class=""><input type="number" oninput="calculprix()" name="" id="nbjr" value="1"></strong>
               </div>
             </li>
-          </ul>
-        
+          </ul>-->
+          <ul>
+  <li class="element-list">
+    <div class="">
+      <span class="" id="prix">From</span>
+      <strong class="" id=""><input type="date" class="dateachat" name="datedeb" id="datedeb" oninput="calNbjour()" value="<?php echo date('Y-m-d'); ?>"></strong>
     </div>
+  </li>
+  <li class="element-list">
+    <div class="">
+      <span class="" id="prix">To</span>
+      <strong class="" id=""><input type="date" class="dateachat" name="datefin" id="datefin" oninput="calNbjour()" value="<?php echo date('Y-m-d'); ?>"></strong>
+    </div>
+  </li>
+  <li class="element-list">
+    <div class="">
+      <span class="" id="prix">Total price</span>
+      <strong class="" id="prix-tootal" value="0">0 DT</strong>
+    </div>
+  </li>
+</ul>
+</div>
+<div class="conainter2"><button type="submit" class="rentnow" >RENT NOW</button></div>
 </form>
+<!--------------------------------------------------------------------------------------->
 </section>
 <section class="rent">
     <div class="container1">
@@ -98,7 +125,6 @@
         <div class="element"><img src="/car-details/car-details/img/customer-service.png" alt="" class="icon"><legend><span>Satisfied Clients</span></legend></div>
     </div>
     
-    <div class="conainter2"><button type="submit" class="rentnow">RENT NOW</button></div>
 </section>
 <footer >
         <h3><i><span>AM</span>Cars</i></h3>
@@ -111,5 +137,6 @@
         </ul>
         <p class="hh">&copy; by <span>AM</span>Car</p>
 </footer>
+<link rel="stylesheet" href="./car-details.css">
 </body>
 </html>

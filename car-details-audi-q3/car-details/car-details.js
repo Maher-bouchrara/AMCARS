@@ -31,3 +31,26 @@ function calculprix() {
 
   prixTotalElement.textContent = prixTotal + " DT";
 }
+function calNbjour(){
+  var date1=new Date(document.getElementById("datedeb").value);
+  var date2=new Date(document.getElementById("datefin").value);
+  var differenceEnMillisecondes = date2.getTime() - date1.getTime();
+  var differenceEnJours = differenceEnMillisecondes / (1000 * 60 * 60 * 24);
+  var prixtotal=document.getElementById("prix-tootal");
+  if(differenceEnJours>=0){
+    prixtotal.textContent = 150*differenceEnJours + " DT";
+    prixtotal.setAttribute('value',differenceEnJours*150);
+  }
+  else{ prixtotal.textContent ="Invalid Date!";alert("Invalid date!");}
+  
+}
+function verifdate(){
+  var date1=new Date(document.getElementById("datedeb").value);
+  var date2=new Date(document.getElementById("datefin").value);
+  var x = date2.getTime() - date1.getTime();
+  if(x<=0){
+    alert("Invalid date!");
+    return false ;
+  }
+  else return true;
+}

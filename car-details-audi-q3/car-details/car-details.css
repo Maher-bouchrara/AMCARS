@@ -21,6 +21,7 @@
 body{
     overflow-x: hidden;
     background-color: gainsboro;
+
 }
 /*-------------------navbar------------------*/
 nav{
@@ -284,6 +285,13 @@ form{
     border: 3px solid black;
     text-align: center;
 }
+.dateachat{
+    margin-top: 0;
+    font-size: 20px;
+    color: rgb(126, 108, 108);
+    border: 2px solid black;
+    text-align: center;
+}
 .rent{
     
     margin: 0;
@@ -298,13 +306,13 @@ form{
     justify-content: space-between;
 }
 .conainter2{
-    width: 30%;
-    height: 70%;
-    padding-top: 0;
-    padding-left: 10vmin;
-    padding-right: 10vmin;
-    padding-bottom: 2vmin;
+    width: 100%;
+    height: fit-content;
+    display:flex ;
+    justify-content:center;
+    align-items: center;
     position: relative;
+    padding: 30px;
 }
 
 .rent button{
@@ -337,6 +345,8 @@ legend{
     background-color: black;
     color: aliceblue;
     transition: 1.8s;
+    width: 200px;
+    height: 80px;
 }
 .rentnow:hover{
     background-color: aliceblue;
@@ -427,9 +437,8 @@ footer p.hh span{
         width: 100%;
     }
     .conainter2{
-        width: 50%;
-        height: 150px;
-        padding: 0;
+        width: 100%;
+        padding: 30px;
         font-size: 50px;
     }
 }
