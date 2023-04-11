@@ -1,0 +1,13 @@
+INSERT INTO voiture (model,fuel,seats,price_day,dispo,img1,img2,img3,bg,marque) VALUES 
+('Q3','DIESEL',5,200,'Yes','../car-details-audi-q3/image1.jpg','../car-details-audi-q3/image2.jpg','../car-details-audi-q3/image3.jpg','../car-details-audi-q3/background.png',1) ,
+('A3 SPORTBACK','DIESEL',5,180,'Yes','../car-details-audi-a3sport/image1.jpg','../car-details-audi-a3sport/image2.jpg','../car-details-audi-a3sport/image3.jpg','../car-details-audi-a3sport/background.png',1) ,
+('SERIE 1','DIESEL',5,150,'Yes','../car-details-bmw-serie1/image1.jpg','../car-details-bmw-serie1/image2.jpg','../car-details-bmw-serie1/image3.jpg','../car-details-bmw-serie1/background.png',2) ,
+('X2','DIESEL',5,200,'Yes','../car-details-bmw-x2/image1.jpg','../car-details-bmw-x2/image2.jpg','../car-details-bmw-x2/image3.jpg','../car-details-bmw-x2/background.png',2) ,
+('CLASSE A','DIESEL',5,220,'Yes','../car-details-mercedes-classe-a/image1.jpg','../car-details-mercedes-classe-a/image2.jpg','../car-details-mercedes-classe-a/image3.jpg','../car-details-mercedes-classe-a/car-details-audi-a3sport/background.png',3) ,
+('GLA','DIESEL',5,250,'Yes','../car-details-mercedes-gla/image1.jpg','../car-details-mercedes-gla/image2.jpg','../car-details-mercedes-gla/image3.jpg','../car-details-mercedes-gla/background.png',3) ,
+('MACAN','GASOLINE',5,350,'Yes','../car-details-porshe-macan/image1.jpg','../car-details-porshe-macan/image2.jpg','../car-details-porshe-macan/image3.jpg','../car-details-porshe-macan/background.png',4) ,
+('718 BOXSTER','GASOLINE',5,325,'Yes','../car-details-porshe-boxster/image1.jpg','../car-details-porshe-boxster/image2.jpg','../car-details-porshe-boxster/image3.jpg','../car-details-porshe-boxster/background.png',4) ,
+('IBIZA','DIESEL',5,80,'Yes','../car-details-seat-ibiza/image1.jpg','../car-details-seat-ibiza/image2.jpg','../car-details-seat-ibiza/image3.jpg','../car-details-seat-ibiza/background.png',5) ,
+('LEON','GASOLINE',5,100,'Yes','../car-details-seat-leon/image1.jpg','../car-details-seat-leon/image2.jpg','../car-details-seat-leon/image3.jpg','../car-details-seat-leon/background.png',5) ,
+('POLO','DIESEL',5,145,'Yes','../car-details-polo/image1.jpg','../car-details-polo/image2.jpg','../car-details-polo/image3.jpg','../car-details-polo/background.png',6) ,
+('GOLF 8','DIESEL',5,175,'Yes','../car-details-golf8/image1.jpg','../car-details-golf8/image2.jpg','../car-details-golf8/image3.jpg','../car-details-golf8/background.png',6) ;

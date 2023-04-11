@@ -1,0 +1,27 @@
+CREATE TABLE voiture (
+id_voiture INT NOT NULL AUTO_INCREMENT PRIMARY KEY ,
+model VARCHAR(30) ,
+fuel VARCHAR(30) , 
+seats INT,
+price_day INT,
+dispo VARCHAR(3) DEFAULT 'Yes' CHECK (dispo IN ('Yes', 'No')),
+img1 VARCHAR(100) ,
+img2 VARCHAR(100) ,
+img3 VARCHAR(100) ,
+bg VARCHAR(100) ,
+marque INT  , FOREIGN KEY (marque) REFERENCES marque(id_marque) ) ;
+
+
+
+
+
+CREATE TABLE location (
+id_location INT NOT NULL AUTO_INCREMENT PRIMARY KEY ,
+datedeb DATE ,
+datetfin DATE ,
+prixtotal int ,
+voiture int ,
+client int ,
+FOREIGN KEY (voiture) REFERENCES marque(id_voiture) , 
+FOREIGN KEY (client) REFERENCES marque(id_client)
+);

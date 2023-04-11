@@ -28,7 +28,7 @@
                 <h4>Description:</h4>
                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
                      Lorem Ipsum has been the industry's standard dummy text ever since the 1500s ... </p>
-                     <button class="boutt" onclick="" ><a href="./car-details-audi-q3/car-details/car-details.php">Learn More</a></button>
+                     <button class="boutt" onclick="" ><a href="./details/car-details.php?id=1">Learn More</a></button>
                     </div>
          
         </div>
@@ -43,7 +43,7 @@
                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
                      Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
                      </p>
-                     <button class="boutt" ><a href="./car-details-audi-a3sport/car-details/car-details.php">Learn More</a></button>
+                     <button class="boutt" ><a href="./details/car-details.php?id=2">Learn More</a></button>
             </div>
         </div>
       </section>
@@ -59,7 +59,7 @@
                 <h4>Description:</h4>
                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
                      Lorem Ipsum has been the industry's standard dummy text ever since the 1500s ... </p>
-                     <button class="boutt" ><a href="./car-details-bmw-serie1/car-details/car-details.php">Learn More</a></button>
+                     <button class="boutt" ><a href="./details/car-details.php?id=3">Learn More</a></button>
                     </div>
          
         </div>
@@ -74,7 +74,7 @@
                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
                      Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
                      </p>
-                     <button class="boutt" ><a href="./car-details-bmw-x2/car-details/car-details.php">Learn More</a></button>
+                     <button class="boutt" ><a href="./details/car-details.php?id=4">Learn More</a></button>
             </div>
         </div>
       </section>
@@ -90,7 +90,7 @@
                 <h4>Description:</h4>
                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
                      Lorem Ipsum has been the industry's standard dummy text ever since the 1500s ... </p>
-                     <button class="boutt" ><a href="./car-details-mercedes-classe-a/car-details/car-details.php">Learn More</a></button>
+                     <button class="boutt" ><a href="./details/car-details.php?id=5">Learn More</a></button>
                     </div>
          
         </div>
@@ -105,7 +105,7 @@
                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
                      Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
                      </p>
-                     <button class="boutt" ><a href="./car-details-mercedes-gla/car-details/car-details.php">Learn More</a></button>
+                     <button class="boutt" ><a href="./details/car-details.php?id=6">Learn More</a></button>
             </div>
         </div>
       </section>
@@ -122,7 +122,7 @@
                 <h4>Description:</h4>
                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
                      Lorem Ipsum has been the industry's standard dummy text ever since the 1500s ... </p>
-                     <button class="boutt" ><a href="./car-details-seat-ibiza/car-details/car-details.php">Learn More</a></button>
+                     <button class="boutt" ><a href="./details/car-details.php?id=7">Learn More</a></button>
                     </div>
          
         </div>
@@ -137,7 +137,7 @@
                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
                      Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
                      </p>
-                     <button class="boutt" ><a href="./car-details-seat-leon/car-details/car-details.php">Learn More</a></button>
+                     <button class="boutt" ><a href="./details/car-details.php?id=8">Learn More</a></button>
             </div>
         </div>
       </section>
@@ -153,7 +153,7 @@
                 <h4>Description:</h4>
                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
                      Lorem Ipsum has been the industry's standard dummy text ever since the 1500s ... </p>
-                     <button class="boutt" ><a href="./car-details-porshe-macan/car-details/car-details.php">Learn More</a></button>
+                     <button class="boutt" ><a href="./details/car-details.php?id=9">Learn More</a></button>
                     </div>
          
         </div>
@@ -168,7 +168,7 @@
                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
                      Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
                      </p>
-                     <button class="boutt" ><a href="./car-details-porshe-boxster/car-details/car-details.php">Learn More</a></button>
+                     <button class="boutt" ><a href="./details/car-details.php?id=10">Learn More</a></button>
             </div>
         </div>
       </section>
@@ -184,7 +184,7 @@
                 <h4>Description:</h4>
                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
                      Lorem Ipsum has been the industry's standard dummy text ever since the 1500s ... </p>
-                     <button class="boutt" ><a href="./car-details-polo/car-details/car-details.php">Learn More</a></button>
+                     <button class="boutt" ><a href="./details/car-details.php?id=11">Learn More</a></button>
                     </div>
          
         </div>
@@ -199,7 +199,7 @@
                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
                      Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
                      </p>
-                     <button class="boutt" ><a href="./car-details-golf7/car-details/car-details.php">Learn More</a></button>
+                     <button class="boutt" ><a href="./details/car-details.php?id=12">Learn More</a></button>
             </div>
         </div>
       </section>
