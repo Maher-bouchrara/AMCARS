@@ -122,7 +122,7 @@
                 <h4>Description:</h4>
                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
                      Lorem Ipsum has been the industry's standard dummy text ever since the 1500s ... </p>
-                     <button class="boutt" ><a href="./details/car-details.php?id=7">Learn More</a></button>
+                     <button class="boutt" ><a href="./details/car-details.php?id=9">Learn More</a></button>
                     </div>
          
         </div>
@@ -137,7 +137,7 @@
                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
                      Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
                      </p>
-                     <button class="boutt" ><a href="./details/car-details.php?id=8">Learn More</a></button>
+                     <button class="boutt" ><a href="./details/car-details.php?id=10">Learn More</a></button>
             </div>
         </div>
       </section>
@@ -153,7 +153,7 @@
                 <h4>Description:</h4>
                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
                      Lorem Ipsum has been the industry's standard dummy text ever since the 1500s ... </p>
-                     <button class="boutt" ><a href="./details/car-details.php?id=9">Learn More</a></button>
+                     <button class="boutt" ><a href="./details/car-details.php?id=7">Learn More</a></button>
                     </div>
          
         </div>
@@ -168,7 +168,7 @@
                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
                      Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
                      </p>
-                     <button class="boutt" ><a href="./details/car-details.php?id=10">Learn More</a></button>
+                     <button class="boutt" ><a href="./details/car-details.php?id=8">Learn More</a></button>
             </div>
         </div>
       </section>

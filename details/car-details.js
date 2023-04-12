@@ -31,16 +31,15 @@ function calculprix() {
 
   prixTotalElement.textContent = prixTotal + " DT";
 }
-function calNbjour(){
+function calNbjour(x){
   var date1=new Date(document.getElementById("datedeb").value);
   var date2=new Date(document.getElementById("datefin").value);
   var differenceEnMillisecondes = date2.getTime() - date1.getTime();
   var differenceEnJours = differenceEnMillisecondes / (1000 * 60 * 60 * 24);
   var prixtotal=document.getElementById("prix-tootal");
-  var pr=Number(document.getElementById("prixjour").value);
   if(differenceEnJours>=0){
-    prixtotal.textContent = pr*differenceEnJours+" DT";
-    prixtotal.setAttribute('value',pr*differenceEnJours);
+    prixtotal.textContent = x*differenceEnJours+" DT";
+    prixtotal.setAttribute('value',x*differenceEnJours);
   }
   else{ 
     prixtotal.textContent ="Invalid Date!";

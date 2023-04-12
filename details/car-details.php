@@ -1,5 +1,5 @@
-<?php 
-  require_once "location.php" ;
+<?php
+  require_once "creation-car-page.php" ;
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -40,12 +40,12 @@
             <button class="next arrow-right"><div></div></button>
         </div>
     </div>
-    <form name="myf" id="myf" action="location.php" method="POST" onsubmit="return verifdate()">
+    <form name="myf" id="myf" action="location.php?id=<?=$id?>" method="POST" onsubmit="return verifdate()">
     <div class="caracteristique">
         <ul>
             <li class="element-list">
                 <div class="">
-                     <span class="">Disponibilty</span>
+                     <span class="">Disponibilty </span>
                      <strong class=""><?= $dispo ?></strong>
                 </div>
            </li>
@@ -78,7 +78,7 @@
             <li class="element-list">
               <div class="">
                 <span class="" id="prix">Price per day</span>
-                <strong class="" id="prixjour" value=<?= $price ?>><?= $price ?></strong>
+                <strong class="" id="prixjour" value=<?=$price?>><?= $price.' DT'?></strong>
               </div>
             </li>
           </ul>
@@ -94,19 +94,19 @@
   <li class="element-list">
     <div class="">
       <span class="" id="prix">From</span>
-      <strong class="" id=""><input type="date" class="dateachat" name="datedeb" id="datedeb" oninput="calNbjour()" value="<?php echo date('Y-m-d'); ?>"></strong>
+      <strong class="" id=""><input type="date" class="dateachat" name="datedeb" id="datedeb" oninput="calNbjour(<?=$price?>)" value="<?php echo date('Y-m-d'); ?>"></strong>
     </div>
   </li>
   <li class="element-list">
     <div class="">
       <span class="" id="prix">To</span>
-      <strong class="" id=""><input type="date" class="dateachat" name="datefin" id="datefin" oninput="calNbjour()" value="<?php echo date('Y-m-d'); ?>"></strong>
+      <strong class="" id=""><input type="date" class="dateachat" name="datefin" id="datefin" oninput="calNbjour(<?=$price?>)" value="<?php echo date('Y-m-d'); ?>"></strong>
     </div>
   </li>
   <li class="element-list">
     <div class="">
       <span class="" id="prix">Total price</span>
-      <strong class="" id="prix-tootal" value="0">0 DT</strong>
+      <strong class="" id="prix-tootal" value="0" name="a">0 DT</strong>
     </div>
   </li>
 </ul>
