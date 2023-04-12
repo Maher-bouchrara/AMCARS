@@ -24,7 +24,7 @@ if (mysqli_num_rows($resultc)==1){
 }
 else echo "erreur client ";
 $prixtotal=$nbjr*$prixj;
-$loc="INSERT INTO location (datedeb , datefin , prixtotal , voiture , client ) VALUES($datedeb,$datefin,$prixtotal,$voiture,$client);";
+$loc="INSERT INTO location (datedeb,datefin,prixtotal,voiture,client) VALUES('$datedeb','$datefin',$prixtotal,$voiture,$client);";
 $insertion_location=mysqli_query($con,$loc);
 if (!$insertion_location)
 {
@@ -34,8 +34,8 @@ else{
     echo "Succés!";
     $update="UPDATE voiture SET dispo='No' WHERE id_voiture='$voiture' ; ";
     $resultup=mysqli_query($con,$update);
-    if (!$resultup) echo "echec" ;
-    else echo "succées" ;
+    if (!$resultup) header("Location: ../index-login.php?rent=no");
+    else header("Location: ../index-login.php?rent=yes");
 }
 
 

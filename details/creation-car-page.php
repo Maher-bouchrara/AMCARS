@@ -8,6 +8,17 @@ if (isset($_POST["datedeb"])) $datedeb=$_POST["datedeb"];
 if (isset($_POST["datefin"])) $datefin=$_POST["datefin"];
 if (isset($_POST["prix"])) $prixj=$_POST["prix"];
 if (isset($_GET["id"])) $id=$_GET["id"];
+//----------------------------------Disponibilité TRUE--------------------------------------
+$reqd="SELECT * FROM location WHERE datefin>NOW() AND voiture='$id' ;";
+$resd=mysqli_query($conn,$reqd);
+if(mysqli_num_rows($resd)==0){
+    $ins="UPDATE voiture SET dispo='Yes' WHERE id_voiture='$id' ; ";
+    $resi=mysqli_query($conn,$ins);
+  }
+//-----------------------------------------------------------------------------
+$del="DELETE FROM location where datefin<NOW();";
+$resdel=mysqli_query($conn,$del);
+/*---------------------------------------------------------------------------*/
 $req="SELECT * FROM voiture WHERE id_voiture='$id' ;";
 $result=mysqli_query($conn,$req);
 if(mysqli_num_rows($result)==0) {

@@ -8,7 +8,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AMCars</title>
-    
+    <link rel="stylesheet" href="sucess.css">
+    <link rel="stylesheet" href="style-login.css">
     <link rel="shortcut icon" href="./img/log.png" type="x-icon">
     <link rel="stylesheet" href="login.css">
     <link rel="stylesheet" href="style.css">
@@ -232,6 +233,37 @@
     ?>
     <img src="./img/bar.png" class="menu-btn">
     <header class="header">
+<!--------------RENT SUCCESS ------------------------->
+<div class="modal-success" id="success" onclick="">
+    <div class="success-content" id="success-content">
+        <p>You rent has done <span>successfully</span> !</p>
+        <img class="tick" src="img/checked.png" alt="">
+        <p>Thank you <?=$_SESSION["username"]?> for trusting us!</p>
+        <button type="submit" class="btns" id="btns">Peace out</button>
+    </div>
+</div>
+<script>
+
+var btns=document.getElementById('btns');
+var success=document.getElementById('success');
+var body=document.querySelector('body')
+btns.onclick=function(){
+   success.style.display="none";
+   body.style.overflowY="visible";
+}
+const param = new URLSearchParams(window.location.search);
+if (param.has("rent")){
+    success.style.display="block";
+    body.style.overflowY="hidden";
+}
+else {alert('ok');}
+
+</script>
+<!--------------RENT SUCCESS ------------------------->
+
+
+
+
 <!-- welcome -->
        <!-- <section class="welcome">
             <div><h1>Welcome To Our</h1>
