@@ -45,8 +45,8 @@
         <ul>
             <li class="element-list">
                 <div class="">
-                     <span class="">Disponibilty </span>
-                     <strong class=""><?= $dispo ?></strong>
+                     <span class="" >Disponibilty </span>
+                     <strong class="" id="disp" value=<?=$dispo?> ><?= $dispo ?></strong>
                 </div>
            </li>
         </ul>
