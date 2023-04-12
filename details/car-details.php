@@ -78,7 +78,7 @@
             <li class="element-list">
               <div class="">
                 <span class="" id="prix">Price per day</span>
-                <strong class="" id="prixjour" value=<?=$price?>><?= $price.' DT'?></strong>
+                <strong class="" id="prixjour" name="prix" value=<?=$price?>><?= $price.' DT'?></strong>
               </div>
             </li>
           </ul>
