@@ -256,6 +256,7 @@ const param = new URLSearchParams(window.location.search);
 if (param.has("rent")){
     success.style.display="block";
     body.style.overflowY="hidden";
+    
 }
 
 </script>

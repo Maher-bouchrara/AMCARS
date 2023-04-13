@@ -14,7 +14,7 @@
     }
     else{
         $message="error";
-        header("Location: http://localhost/amcars   /index.php?message=".urlencode($message));
+        header("Location: http://localhost/amcars/index.php?message=".urlencode($message));
     }
 
 
