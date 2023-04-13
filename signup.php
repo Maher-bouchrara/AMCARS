@@ -11,12 +11,12 @@
     $sql="SELECT * FROM client WHERE  username='$username' OR email='$email' ;";
     $result=mysqli_query($conn,$sql);
     if(mysqli_num_rows($result)>0){
-        header("Location: http://localhost/amcars-v3/index.php?signup=ok");
+        header("Location: http://localhost/amcars/index.php?signup=ok");
     }
     else{
         $add="INSERT INTO client(username,password,email,sexe,country,date) VALUES('$username','$password','$email','$sexe','$country','$date');";
         if(mysqli_query($conn,$add)){
-            header("Location: http://localhost/amcars-v3/index.php?login=okk");
+            header("Location: http://localhost/amcars/index.php?login=okk");
         }
     }
 ?>

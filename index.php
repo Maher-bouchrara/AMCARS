@@ -24,7 +24,7 @@
                 <h4>Description:</h4>
                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
                      Lorem Ipsum has been the industry's standard dummy text ever since the 1500s ... </p>
-                     <button class="boutt" onclick="" ><a onclick="alert('You have to log in !')">Learn More</a></button>
+                     <button class="boutt" onclick="" ><a onclick="Swal.fire('You have to log in !', '', 'error');">Learn More</a></button>
                     </div>
          
         </div>
@@ -39,7 +39,7 @@
                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
                      Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
                      </p>
-                     <button class="boutt" ><a onclick="alert('You have to log in !')">Learn More</a></button>
+                     <button class="boutt" ><a onclick="Swal.fire('You have to log in !', '', 'error');">Learn More</a></button>
             </div>
         </div>
       </section>
@@ -55,7 +55,7 @@
                 <h4>Description:</h4>
                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
                      Lorem Ipsum has been the industry's standard dummy text ever since the 1500s ... </p>
-                     <button class="boutt" ><a  onclick="alert('You have to log in !')">Learn More</a></button>
+                     <button class="boutt" ><a  onclick="Swal.fire('You have to log in !', '', 'error');">Learn More</a></button>
                     </div>
          
         </div>
@@ -70,7 +70,7 @@
                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
                      Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
                      </p>
-                     <button class="boutt" ><a  onclick="alert('You have to log in !')">Learn More</a></button>
+                     <button class="boutt" ><a  onclick="Swal.fire('You have to log in !', '', 'error');">Learn More</a></button>
             </div>
         </div>
       </section>
@@ -86,7 +86,7 @@
                 <h4>Description:</h4>
                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
                      Lorem Ipsum has been the industry's standard dummy text ever since the 1500s ... </p>
-                     <button class="boutt" ><a  onclick="alert('You have to log in !')">Learn More</a></button>
+                     <button class="boutt" ><a  onclick="Swal.fire('You have to log in !', '', 'error');">Learn More</a></button>
                     </div>
          
         </div>
@@ -101,7 +101,7 @@
                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
                      Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
                      </p>
-                     <button class="boutt" ><a  onclick="alert('You have to log in !')">Learn More</a></button>
+                     <button class="boutt" ><a  onclick="Swal.fire('You have to log in !', '', 'error');">Learn More</a></button>
             </div>
         </div>
       </section>
@@ -118,7 +118,7 @@
                 <h4>Description:</h4>
                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
                      Lorem Ipsum has been the industry's standard dummy text ever since the 1500s ... </p>
-                     <button class="boutt" ><a  onclick="alert('You have to log in !')">Learn More</a></button>
+                     <button class="boutt" ><a  onclick="Swal.fire('You have to log in !', '', 'error');">Learn More</a></button>
                     </div>
          
         </div>
@@ -133,7 +133,7 @@
                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
                      Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
                      </p>
-                     <button class="boutt" ><a  onclick="alert('You have to log in !')">Learn More</a></button>
+                     <button class="boutt" ><a  onclick="Swal.fire('You have to log in !', '', 'error');">Learn More</a></button>
             </div>
         </div>
       </section>
@@ -149,7 +149,7 @@
                 <h4>Description:</h4>
                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
                      Lorem Ipsum has been the industry's standard dummy text ever since the 1500s ... </p>
-                     <button class="boutt" ><a   onclick="alert('You have to log in !')">Learn More</a></button>
+                     <button class="boutt" ><a   onclick="Swal.fire('You have to log in !', '', 'error');">Learn More</a></button>
                     </div>
          
         </div>
@@ -164,7 +164,7 @@
                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
                      Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
                      </p>
-                     <button class="boutt" ><a onclick="alert('You have to log in !')">Learn More</a></button>
+                     <button class="boutt" ><a onclick="Swal.fire('You have to log in !', '', 'error');">Learn More</a></button>
             </div>
         </div>
       </section>
@@ -180,7 +180,7 @@
                 <h4>Description:</h4>
                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
                      Lorem Ipsum has been the industry's standard dummy text ever since the 1500s ... </p>
-                     <button class="boutt" ><a   onclick="alert('You have to log in !')">Learn More</a></button>
+                     <button class="boutt" ><a   onclick="Swal.fire('You have to log in !', '', 'error');">Learn More</a></button>
                     </div>
          
         </div>
@@ -195,7 +195,7 @@
                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
                      Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
                      </p>
-                     <button class="boutt" ><a onclick="alert('You have to log in !')">Learn More</a></button>
+                     <button class="boutt" ><a onclick="Swal.fire('You have to log in !', '', 'error');">Learn More</a></button>
             </div>
         </div>
       </section>
@@ -370,11 +370,11 @@
         <section class="newcollection">
             <h1>NEW COLLECTION</h1>
             <div class="content display-container" style="max-width:800px">
-                <a  onclick="alert('You have to log in !')"><img class="mySlides" src="./img/audi.png" style="width:100%"></a>
-                <a  onclick="alert('You have to log in !')"><img class="mySlides" src="./img/bmw.png" style="width:100%"></a>
-                <a  onclick="alert('You have to log in !')"><img class="mySlides" src="./img/leon.png" style="width:100%"></a>
-                <a  onclick="alert('You have to log in !')"><img class="mySlides" src="./img/mercedes.png" style="width:100%"></a>
-                <a  onclick="alert('You have to log in !')"><img class="mySlides" src="./img/ibiza.png" style="width:100%"></a>
+                <a  onclick="Swal.fire('You have to log in !', '', 'error');"><img class="mySlides" src="./img/audi.png" style="width:100%"></a>
+                <a  onclick="Swal.fire('You have to log in !', '', 'error');"><img class="mySlides" src="./img/bmw.png" style="width:100%"></a>
+                <a  onclick="Swal.fire('You have to log in !', '', 'error');"><img class="mySlides" src="./img/leon.png" style="width:100%"></a>
+                <a  onclick="Swal.fire('You have to log in !', '', 'error');"><img class="mySlides" src="./img/mercedes.png" style="width:100%"></a>
+                <a  onclick="Swal.fire('You have to log in !', '', 'error');"><img class="mySlides" src="./img/ibiza.png" style="width:100%"></a>
                 <div class="center container section large text-white display-bottommiddle" style="width:100%">
                   <div class="left-arrow hover-arrow" onclick="plusDivs(-1)">&#10094;</div>
                   <div class="right-arrow hover-arrow" onclick="plusDivs(1)">&#10095;</div>
@@ -684,6 +684,7 @@ const openModal14 = function () {
 };
 // open modal event
 openModalBtn14.addEventListener("click", openModal14);
-</script>   
+</script>  
+<script src="sweetalert2@11.js"></script> 
 </body>
 </html>

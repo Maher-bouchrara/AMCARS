@@ -47,15 +47,3 @@ function calNbjour(x){
   }
 }
 
-function verifdate(){
-  var date1=new Date(document.getElementById("datedeb").value);
-  var date2=new Date(document.getElementById("datefin").value);
-  var x = date2.getTime() - date1.getTime();
-  var disp=document.getElementById("disp").getAttribute.value;
-  if(x<=0){
-    alert("Invalid date!");
-    alert(disp);
-    return false ;
-  }
-  else return true;
-}

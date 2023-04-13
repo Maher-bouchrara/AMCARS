@@ -46,7 +46,7 @@
             <li class="element-list">
                 <div class="">
                      <span class="" >Disponibilty </span>
-                     <strong class="" id="disp" value=<?=$dispo?> ><?= $dispo ?></strong>
+                     <strong class="" id="disp"><?= $dispo ?></strong>
                 </div>
            </li>
         </ul>
@@ -82,14 +82,6 @@
               </div>
             </li>
           </ul>
-          <!--<ul>
-            <li class="element-list">
-              <div class="">
-                <span class="">Total of days</span>
-                <strong class=""><input type="number" oninput="calculprix()" name="" id="nbjr" value="1"></strong>
-              </div>
-            </li>
-          </ul>-->
           <ul>
   <li class="element-list">
     <div class="">
@@ -112,6 +104,23 @@
 </ul>
 </div>
 <div class="conainter2"><button type="submit" class="rentnow" >RENT NOW</button></div>
+<script>
+  function verifdate(){
+  var date1=new Date(document.getElementById("datedeb").value);
+  var date2=new Date(document.getElementById("datefin").value);
+  var x = date2.getTime() - date1.getTime();
+  var dispo=document.getElementById('disp').innerHTML;
+  if(dispo=='No') {
+    Swal.fire('Sorry <?=$_SESSION['username']?> this vehicle is not available!', '', 'error');
+    return false ;
+  }
+  if(x<=0){
+    alert("Invalid date!");
+    return false ;
+  }
+  else return true;
+}
+</script>
 </form>
 </section>
 <section class="rent">
@@ -134,5 +143,6 @@
         <p class="hh">&copy; by <span>AM</span>Car</p>
 </footer>
 <link rel="stylesheet" href="./car-details.css">
+<script src="../sweetalert2@11.js"></script>
 </body>
 </html>
