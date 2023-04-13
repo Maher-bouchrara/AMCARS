@@ -214,7 +214,7 @@
       <div class="overlay14 hidden"></div>
     
      <nav class="collapse">
-        <img src="/img/log.png" alt="" class="logo">
+        <img src="./img/log.png" alt="" class="logo">
         <ul class="nav-links">
             <li><a href="#" class="home">HOME</a></li>
             <li><a href="#brand">BRANDS</a></li>
@@ -256,7 +256,6 @@ if (param.has("rent")){
     success.style.display="block";
     body.style.overflowY="hidden";
 }
-else {alert('ok');}
 
 </script>
 <!--------------RENT SUCCESS ------------------------->
