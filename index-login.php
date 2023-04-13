@@ -250,6 +250,7 @@ var body=document.querySelector('body')
 btns.onclick=function(){
    success.style.display="none";
    body.style.overflowY="visible";
+   window.history.pushState({}, null, "index-login.php"); // tbadel el URL menghir matloadi el page !!! houni nahit el "?rent=yes"
 }
 const param = new URLSearchParams(window.location.search);
 if (param.has("rent")){
