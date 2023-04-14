@@ -115,7 +115,7 @@
     return false ;
   }
   if(x<=0){
-    alert("Invalid date!");
+    Swal.fire('Invalid date!', 'Please Retry', 'error');
     return false ;
   }
   else return true;
