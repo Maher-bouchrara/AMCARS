@@ -343,7 +343,7 @@
               </video>
             <div class="info">
             
-            <h1 ><span>100+</span></h1>
+            <h1 ><span>1000+</span></h1>
             <p >Types of machine</p>
             </div>
 
